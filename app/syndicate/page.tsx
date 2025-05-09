@@ -1,6 +1,5 @@
 "use client";
 
-import { Inter } from "next/font/google";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import { useEffect, useMemo, useState } from "react";

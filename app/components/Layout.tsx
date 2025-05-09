@@ -185,7 +185,9 @@ export default function Layout({ children }: LayoutProps) {
               <div className="text-xl font-bold bg-gradient-to-r from-[#ff9966] to-[#ff5e62] bg-clip-text text-transparent mb-1">
                 Utsav.life
               </div>
-              <p className="text-gray-400 text-xs">Don't Just Exist, Utsav.</p>
+              <p className="text-gray-400 text-xs">
+                Don&apos;t Just Exist, Utsav.
+              </p>
             </div>
 
             {/* Quick Links */}
