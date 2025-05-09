@@ -20,7 +20,7 @@ export default function Gallery() {
           Gallery Coming Soon
         </h1>
         <p className="text-white text-xl">
-          We're working on something amazing!
+         {" We're working on something amazing!"}
         </p>
       </div>
     </Layout>
