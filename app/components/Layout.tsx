@@ -25,7 +25,7 @@ export default function Layout({ children }: LayoutProps) {
   }, [isMenuOpen]);
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] overflow-x-hidden flex flex-col">
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] flex flex-col">
       {/* Navbar */}
       <nav className="sticky top-0 z-50 w-full bg-[#0f2027]/80 backdrop-blur-md border-b border-gray-800/50 px-4 py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -177,7 +177,7 @@ export default function Layout({ children }: LayoutProps) {
       <main className="flex-grow">{children}</main>
 
       {/* Footer */}
-      <footer className="bg-[#0f2027]/80 backdrop-blur-md border-t border-gray-800/50 py-4 px-4 mt-auto">
+      <footer className="bg-[#0f2027]/80 backdrop-blur-md border-t border-gray-800/50 py-4 px-4 mt-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {/* Logo and Tagline */}
@@ -298,6 +298,7 @@ export default function Layout({ children }: LayoutProps) {
           margin: 0;
           padding: 0;
           min-height: 100vh;
+          background-color: rgba(15, 32, 39);
         }
       `}</style>
     </div>

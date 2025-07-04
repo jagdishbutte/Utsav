@@ -20,11 +20,9 @@ export default function About() {
           About Utsav
         </h1>
         <p className="text-white text-xl max-w-2xl text-center">
-          <p className="text-white text-xl max-w-2xl text-center">
             We&apos;re a community of adventurers, creators, and dreamers who
             believe in living life to the fullest. Join us as we explore the
             world and create unforgettable experiences together.
-          </p>
         </p>
       </div>
     </Layout>
